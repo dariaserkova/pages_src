@@ -1,0 +1,20 @@
+[
+    {
+        "role":"Senior Engineer of Infrastructure Team",
+        "company":"Tinkoff Bank (TCS Group), Saint-Petersburg, Russia",
+        "summary":"Researched and made important architecture decisions such as the choice of orchestrator, deploy strategy, infrastructure type. Participated in division of 'monolith' to container environment, supported QA and DEV teams with CI/CD processes and infrastructure issues, organized continuous maintenance and monitoring alerting of developing and production environments",
+        "range":"Nov. 2018 - present"
+    },
+    {
+        "role":"Senior Systems Engineer",
+        "company":"EPAM Systems, Saint-Petersburg, Russia",
+        "summary":"Automated deploy, build and some of QA processes for a bunch of applications. Came up with and performed a way to manipulate CI/CD infrastructure as a code: store it in VCS, test it, and see when, which changes and by whom were made. Participated in applications' migration to the cloud.",
+        "range":"Sep. 2017 - Nov. 2018"
+    },
+    {
+        "role":"Senior Application Administrator",
+        "company":"I-Digital, Saint-Petersburg, Russia",
+        "summary":"Automated deploy process, organized the preproduction application testing, controlled and designed monitoring algorithms, supervised technical support engineers",
+        "range":"Aug. 2014 - Aug. 2017"
+    }
+]

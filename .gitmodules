@@ -1,0 +1,10 @@
+[submodule "themes/hugo-resume"]
+	path = themes/hugo-resume
+	url = git@github.com:eddiewebb/hugo-resume.git
+[submodule "public"]
+	path = public
+	url = git@github.com:dariaserkova/dariaserkova.github.io.git
+	branch = master
+[submodule "themes/aafu"]
+	path = themes/aafu
+	url = https://github.com/darshanbaral/aafu.git

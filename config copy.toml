@@ -1,0 +1,45 @@
+baseURL = "dariaserkova.github.io/"
+languageCode = "en-us"
+title = "Daria Serkova"
+theme = "hugo-resume"
+
+[params]
+    firstName = "Daria"
+    lastName = "Serkova"
+    address = "Saint-Petersburg, Russia"
+    #phone = "+7"
+    contactNote = "BUILDENGINEER · SYSTEMSENGINEER"
+    profileImage = "images/portfolio.jpg"
+    email = "miss.dariaserkova@yandex.ru"
+    description = "7+ years experience in maintenance, deploy automation and monitoring realization of different kinds of applications, in automating software life cycle using different set of tools, great experience of communicating with customer."
+    favicon = "images/favicon.ico"
+    # what sections
+    showSkills = true
+    showProjects = false
+    showOpenSource = false
+    showPublications = false
+    showExperience = true
+    showEducation = true
+
+    showQr = true
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/daria-serkova-a431b081"
+
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/dariaserkova"
+
+[[params.handles]]
+    name = "Stack Overflow"
+    link = "https://stackoverflow.com/users/story/10749628"
+    icon = "stack-overflow"
+
+[[params.handles]]
+    name = "Telegram"
+    link = "https://t.me/ds0102"
+
+[params.google.analytics]
+    trackerID = "XX-123465-01"

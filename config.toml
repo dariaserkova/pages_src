@@ -1,0 +1,264 @@
+baseURL = "https://dariaserkova.github.io"
+languageCode = "en-us"
+theme = "aafu"
+
+[params]
+    title = "Daria Serkova"
+    author = "Daria Serkova"
+    description = "Daria Serkova CV"
+    copyright = 'powered by <a href="https://gohugo.io/">hugo</a>'
+
+    [params.theme]
+        allowToggle = true
+        mainTheme = "light"
+        altTheme = "dark"
+
+    [params.favicons]
+        use = false
+        metas = ''
+
+    # Profile section
+    [params.profile]
+        name = "Daria Serkova"
+		tagline = "Systems Engineer"
+		location = "Saint-Petersburg, Russia"
+        photo = "portfolio.jpg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+
+        [[params.social.list]]
+            class = "fab"
+            icon = "fas fa-envelope"
+            url = "mailto:miss.dariaserkova@yandex.ru"
+            title = "Email"
+        [[params.social.list]]
+            class = "fab"
+            icon = "fab fa-telegram-plane"
+            url = "https://t.me/ds0102"
+            title = "Telegram"
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-linkedin-in"
+            url = "https://www.linkedin.com/in/daria-serkova-a431b081"
+            title = "LinkedIn"		
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-stack-overflow"
+            url = "https://stackoverflow.com/users/story/10749628"
+            title = "StackOverflow"
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-github"
+            url = "https://github.com/dariaserkova"
+            title = "GitHub"
+		
+
+    #Specify what is showin in the Accordion
+    [[params.showInAccordion]]
+        item = "aboutme"
+        expand = true   # true for the section that is initially expanded
+    [[params.showInAccordion]]
+        item = "experience"
+    [[params.showInAccordion]]
+        item = "education"
+    [[params.showInAccordion]]
+        item = "project"
+    [[params.showInAccordion]]
+        item = "skill"
+    [[params.showInAccordion]]
+        item = "publication"
+    [[params.showInAccordion]]
+        item = "hobby"
+
+    [params.aboutme]
+        title = "About Me"
+        icon = "fas fa-smile-beam"
+        description = '''7+ years experience in maintenance, deploy automation and monitoring realization of 
+        different kinds of applications, in automating software life cycle using different set of tools, 
+        great experience of communicating with customer. I like the ideas of infrastructure as code, cloud computing 
+        and DevOps principles and try to behave in accordance with them. Speaking about tools I like python, ansible, 
+        docker, jenkins and try be be aware of it. Now I’m also getting started with Go.'''
+
+    # Experience section
+    [params.experience]
+        title = "Experiences"
+        icon = "fas fa-briefcase"
+
+        [[params.experience.list]]
+            position = "Senior Engineer of Infrastructure Team"
+            dates = "Nov. 2018 - *Present*"
+            company = "Tinkoff Bank (TCS Group), Saint-Petersburg, Russia"
+            details = "Researched and made important architecture decisions such as the choice of orchestrator, deploy strategy, infrastructure type. Participated in division of 'monolith' to container environment, supported QA and DEV teams with CI/CD processes and infrastructure issues, organized continuous maintenance and monitoring alerting of developing and production environments"
+        [[params.experience.list]]
+            position = "Senior Systems Engineer"
+            dates = "Sep. 2017 - Nov. 2018"
+            details = "Automated deploy, build and some of QA processes for a bunch of applications. Came up with and performed a way to manipulate CI/CD infrastructure as a code: store it in VCS, test it, and see when, which changes and by whom were made. Participated in applications' migration to the cloud."
+            company = "EPAM Systems, Saint-Petersburg, Russia"
+        [[params.experience.list]]
+            position = "Senior Application Administrator"
+            dates = "Aug. 2014 - Aug. 2017"
+            details = "Automated deploy process, organized the preproduction application testing, controlled and designed monitoring algorithms, supervised technical support engineers"
+            company = "I-Digital, Saint-Petersburg, Russia"
+
+    # Education section
+    [params.education]
+        title = "Education"
+        icon = "fas fa-graduation-cap"
+
+        [[params.education.list]]
+            degree = "Specialist"
+            college = "Saint-Petersburg State University of Engeneering and Economics"
+            dates = "Jun. 2008 - Aug. 2013"
+            thesis_title = "Information Systems and Technology in Economy"
+
+        [params.project]
+        title = "Tools"
+        icon = "fas fa-toolbox"
+
+        [[params.project.list]]
+            title = "Ansible"
+            url = "https://www.ansible.com"
+            description = "Automation of deploy anything anywhere: application, LB-s, infrastructure parts etc. Custom modules. Different kinds of templates for specific purposes"
+        [[params.project.list]]
+            title = "Docker"
+            url = "https://docs.docker.com"
+            description = "Custom docker build for self-written and opensource applications. Orchestration. Monitoring."
+        [[params.project.list]]
+            title = "Jenkins"
+            url = "https://jenkins.io"
+            description = "Groovy DSL, Jenkins pipelines, Jenkins api with python"
+        [[params.project.list]]
+            title = "Gitlab CI"
+            url = "https://docs.gitlab.com/ee/ci"
+            description = "api with python, different types of runners/builders"  
+        [[params.project.list]]
+            title = "Monitoring, visualisation, alerting"
+            description = "Prometheus (exporters, PomQL for specific computing, alertmanager), Grafana, Consul" 
+        [[params.project.list]]
+            title = "Orchestration"
+            description = "Nomad, K8s"
+        [[params.project.list]]
+            title = "Application and Web servers"
+            description = "nginx/openresty, apache http server, apache tomcat, jboss, wildfly"
+        [[params.project.list]]
+            title = "Java applications maintenance"
+            description = "jconsole, jmap, visualvm"
+        [[params.project.list]]
+            title = "Databases"
+            description = "postgres, oracle"
+        [[params.project.list]]
+            title = "Cloud computing"
+            description = "Amazon Web Services, Selectel"
+        [[params.project.list]]
+            title = "Languages & Operating Systems"
+            description = "Python, bash, golang, lua, deb- and rpm-based linux"
+        [[params.project.list]]
+            title = "Log management"
+            description = "Graylog, fluentd"
+
+    
+    # Skill section
+    [params.skill]
+        title = "Skills"
+        panelId = "skill-panel"
+        icon = "fas fa-cogs"
+
+        [[params.skill.list]]
+            skill = "CI/CD automation"
+            skillrating = 90
+        [[params.skill.list]]
+            skill = "Administration"
+            skillrating = 80
+        [[params.skill.list]]
+            skill = "Script writing"
+            skillrating = 90
+        [[params.skill.list]]
+            skill = "Monitoring/Troubleshooting"
+            skillrating = 70
+        [[params.skill.list]]
+            skill = "Mentoring"
+            skillrating = 70
+        [[params.skill.list]]
+            skill = "Customer Support"
+            skillrating = 80
+        [[params.skill.list]]
+            skill = "DevOps"
+            skillrating = 80
+
+    [params.publication]
+    title = "Read list"
+    icon = "fas fa-book"
+    #The order below determines the order in which the items appear in "Publications" section
+    format = ["date", "journal", "authors", "title"]
+    #If you don't want to group publications, comment the line below by adding # at the beginning
+    types = [ "Books", "Articles"]
+
+    [[params.publication.list]]
+        title = "Release It!: Design and Deploy Production-Ready Software"
+        authors = "Michael T. Nygard"
+        date = "2007"
+        link = "https://www.amazon.com/Release-Production-Ready-Software-Pragmatic-Programmers/dp/0978739213"
+        type = "Books"
+
+    [[params.publication.list]]
+        title = "Ansible: Up and Running"
+        authors = "Rene Moser, Lorin Hochstein"
+        date = "2017"
+        link = "https://www.oreilly.com/library/view/ansible-up-and/9781491979792"
+        type = "Books"
+
+    [[params.publication.list]]
+        title = "Site Reliability Engineering"
+        authors = "Edited by Betsy Beyer, Chris Jones, Jennifer Petoff and Niall Richard Murphy"
+        date = "2017"
+        link = "https://landing.google.com/sre/books"
+        type = "Books"
+
+    [[params.publication.list]]
+        title = "Effective DevOps. Building a Culture of Collaboration, Affinity, and Tooling at Scale"
+        authors = "Jennifer Davis, Ryn Daniels"
+        date = "2016"
+        link = "http://shop.oreilly.com/product/0636920039846.do"
+        type = "Books"
+
+    [[params.publication.list]]
+        title = "The Art of Monitoring"
+        authors = "James Turnbull"
+        date = "2014"
+        link = "https://artofmonitoring.com/"
+        type = "Books"
+
+    [[params.publication.list]]
+        title = "Linux Performance Analysis in 60,000 Milliseconds"
+        journal = "Netflix Technology Blog"
+        link = "https://medium.com/netflix-techblog/linux-performance-analysis-in-60-000-milliseconds-accc10403c55"
+        type = "Articles"
+
+    [[params.publication.list]]
+        title = "Nomad - our experiences and best practices"
+        authors = "Inga Feick"
+        journal = "Trivago Tech Blog"
+        link = "https://tech.trivago.com/2019/01/25/nomad-our-experiences-and-best-practices"
+        type = "Articles"
+
+    [[params.publication.list]]
+        title = "24 sysadmin job interview questions you should know"
+        authors = "DirectedSoul"
+        journal = "RedHat DirectedSoul Blog"
+        link = "https://opensource.com/article/19/7/sysadmin-job-interview-questions?utm_medium=email&utm_source=topic+optin&utm_campaign=awareness&utm_content=20190729+sysops+nl&mkt_tok=eyJpIjoiTlROa056Wm1PVFE1WVdFMyIsInQiOiJQckgwUTVVVThNR2hIMHlkVlN5QStNQXVkeGRcL3hFczVEWThLS21QOWduXC83Z0F4VlFJczV3XC93b2JTRmx2OVBOT2U0c05xWHJVT1F4cGU2UmJmSkZwOE5pOWpkR2k0MUp1eWxPWUxBb2gwZ0NlYTZsRURhdzA1NVV5RGhnZHpmOSJ9"
+        type = "Articles"
+
+    # Hobby section
+    [params.hobby]
+        title = "Hobbies"
+        icon = "fas fa-gamepad"
+		
+        [[params.hobby.list]]		
+		    hobby = "Reading"
+        [[params.hobby.list]]		
+		    hobby = "Cycling"
+        [[params.hobby.list]]		
+		    hobby = "Yoga"
