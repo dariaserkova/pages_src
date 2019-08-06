@@ -1,11 +1,12 @@
 baseURL = "https://dariaserkova.github.io"
 languageCode = "en-us"
 theme = "aafu"
+enableGitInfo = "true"
 
 [params]
     title = "Daria Serkova"
     author = "Daria Serkova"
-    description = "Daria Serkova CV"
+    description = "my page ^_^"
     copyright = 'powered by <a href="https://gohugo.io/">hugo</a>'
 
     [params.theme]
@@ -22,7 +23,7 @@ theme = "aafu"
         name = "Daria Serkova"
 		tagline = "Systems Engineer"
 		location = "Saint-Petersburg, Russia"
-        photo = "portfolio.jpg"
+        photo = "profile.jpg"
 
     # Section for links to social websites
     [params.social]
@@ -54,6 +55,11 @@ theme = "aafu"
             icon = "fa-github"
             url = "https://github.com/dariaserkova"
             title = "GitHub"
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-skype"
+            url = "http://skype:dariaserkova?chat"
+            title = "Skype"
 		
 
     #Specify what is showin in the Accordion
@@ -61,15 +67,15 @@ theme = "aafu"
         item = "aboutme"
         expand = true   # true for the section that is initially expanded
     [[params.showInAccordion]]
-        item = "experience"
-    [[params.showInAccordion]]
-        item = "education"
+        item = "skill"
     [[params.showInAccordion]]
         item = "project"
     [[params.showInAccordion]]
-        item = "skill"
+        item = "experience"
     [[params.showInAccordion]]
         item = "publication"
+    [[params.showInAccordion]]
+        item = "education"
     [[params.showInAccordion]]
         item = "hobby"
 
