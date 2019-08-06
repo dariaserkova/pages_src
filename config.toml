@@ -58,7 +58,7 @@ enableGitInfo = "true"
         [[params.social.list]]
             class = "fab"
             icon = "fa-skype"
-            url = "http://skype:dariaserkova?chat"
+            url = "skype:dariaserkova?chat"
             title = "Skype"
 		
 
