@@ -231,10 +231,10 @@ enableGitInfo = "true"
         type = "Books"
 
     [[params.publication.list]]
-        title = "The Art of Monitoring"
-        authors = "James Turnbull"
-        date = "2014"
-        link = "https://artofmonitoring.com/"
+        title = "Операционная система UNIX"
+        authors = "Робачевский А. М."
+        date = "2002"
+        link = "http://muff.kiev.ua/files/books/OS_UNIX_RUS.pdf"
         type = "Books"
 
     [[params.publication.list]]
