@@ -4,3 +4,7 @@
 [submodule "themes/aafu"]
 	path = themes/aafu
 	url = https://github.com/darshanbaral/aafu.git
+[submodule "public"]
+	path = public
+	url = git@github.com:dariaserkova/dariaserkova.github.io.git
+	branch = master
