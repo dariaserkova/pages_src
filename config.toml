@@ -86,7 +86,7 @@ enableGitInfo = "true"
         different kinds of applications, in automating software life cycle using different set of tools, 
         great experience of communicating with customer. I like the ideas of infrastructure as code, cloud computing 
         and DevOps principles and try to behave in accordance with them. Speaking about tools I like python, ansible, 
-        docker, jenkins and try be be aware of it. Now I’m also getting started with Go.'''
+        docker, prometheus and try be be aware of it. Now I’m also getting started with Go.'''
 
     # Experience section
     [params.experience]
@@ -133,16 +133,15 @@ enableGitInfo = "true"
             url = "https://docs.docker.com"
             description = "Custom docker build for self-written and opensource applications. Orchestration. Monitoring."
         [[params.project.list]]
-            title = "Jenkins"
-            url = "https://jenkins.io"
-            description = "Groovy DSL, Jenkins pipelines, Jenkins api with python"
-        [[params.project.list]]
             title = "Gitlab CI"
             url = "https://docs.gitlab.com/ee/ci"
-            description = "api with python, different types of runners/builders"  
+            description = "api with python, different types of runners/builders" 
         [[params.project.list]]
             title = "Monitoring, visualisation, alerting"
-            description = "Prometheus (exporters, PomQL for specific computing, alertmanager), Grafana, Consul" 
+            description = "Prometheus (exporters, PomQL for specific computing, alertmanager), Grafana, Kibana"
+        [[params.project.list]]
+            title = "DB clusters"
+            description = "postgres + patroni, postgres + pgbouncer"
         [[params.project.list]]
             title = "Orchestration"
             description = "Nomad, K8s"
@@ -153,8 +152,12 @@ enableGitInfo = "true"
             title = "Java applications maintenance"
             description = "jconsole, jmap, visualvm"
         [[params.project.list]]
-            title = "Databases"
-            description = "postgres, oracle"
+            title = "Jenkins"
+            url = "https://jenkins.io"
+            description = "Groovy DSL, Jenkins pipelines, Jenkins api with python" 
+        [[params.project.list]]
+            title = "Service Discovery"
+            description = "Consul"
         [[params.project.list]]
             title = "Cloud computing"
             description = "Amazon Web Services, Selectel"
@@ -177,13 +180,13 @@ enableGitInfo = "true"
             skillrating = 90
         [[params.skill.list]]
             skill = "Administration"
-            skillrating = 80
+            skillrating = 85
         [[params.skill.list]]
             skill = "Script writing"
             skillrating = 90
         [[params.skill.list]]
             skill = "Monitoring/Troubleshooting"
-            skillrating = 70
+            skillrating = 90
         [[params.skill.list]]
             skill = "Mentoring"
             skillrating = 70
