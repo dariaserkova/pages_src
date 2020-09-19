@@ -82,7 +82,7 @@ enableGitInfo = "true"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-smile-beam"
-        description = '''7+ years experience in maintenance, deploy automation and monitoring realization of 
+        description = '''Almost 10 years experience in maintenance, deploy automation and monitoring realization of 
         different kinds of applications, in automating software life cycle using different set of tools, 
         great experience of communicating with customer. I like the ideas of infrastructure as code, cloud computing 
         and DevOps principles and try to behave in accordance with them. Speaking about tools I like python, ansible, 
@@ -92,10 +92,14 @@ enableGitInfo = "true"
     [params.experience]
         title = "Experiences"
         icon = "fas fa-briefcase"
-
+        [[params.experience.list]]
+            position = "Senior Systems Engineer"
+            dates = "Feb. 2020 - *Present*"
+            company = "Wrike, Saint-Petersburg, Russia"
+            details = "Maintened production and stage environments (k8s clusters and non-dockerized applications), prepared and deployed cloud infrastructure as code, developed and support custom packages builds and monitoring schemas, participated in team's duty routines. "
         [[params.experience.list]]
             position = "Senior Engineer of Infrastructure Team"
-            dates = "Nov. 2018 - *Present*"
+            dates = "Nov. 2018 - Jan. 2020"
             company = "Tinkoff Bank (TCS Group), Saint-Petersburg, Russia"
             details = "Researched and made important architecture decisions such as the choice of orchestrator, deploy strategy, infrastructure type. Participated in division of 'monolith' to container environment, supported QA and DEV teams with CI/CD processes and infrastructure issues, organized continuous maintenance and monitoring alerting of developing and production environments"
         [[params.experience.list]]
@@ -125,6 +129,10 @@ enableGitInfo = "true"
         icon = "fas fa-toolbox"
 
         [[params.project.list]]
+            title = "Terraform"
+            url = "https://www.terraform.io/"
+            description = "Infrastructure in AWS, GCP, Snowflake"
+        [[params.project.list]]
             title = "Ansible"
             url = "https://www.ansible.com"
             description = "Automation of deploy anything anywhere: application, LB-s, infrastructure parts etc. Custom modules. Different kinds of templates for specific purposes"
@@ -138,7 +146,7 @@ enableGitInfo = "true"
             description = "api with python, different types of runners/builders" 
         [[params.project.list]]
             title = "Monitoring, visualisation, alerting"
-            description = "Prometheus (exporters, PomQL for specific computing, alertmanager), Grafana, Kibana"
+            description = "Prometheus (exporters, PomQL for specific computing, alertmanager), Grafana, Kibana, Zabbix"
         [[params.project.list]]
             title = "DB clusters"
             description = "postgres + patroni, postgres + pgbouncer"
@@ -175,6 +183,9 @@ enableGitInfo = "true"
         panelId = "skill-panel"
         icon = "fas fa-cogs"
 
+        [[params.skill.list]]
+            skill = "Infrastructure as Code"
+            skillrating = 90
         [[params.skill.list]]
             skill = "CI/CD automation"
             skillrating = 90
