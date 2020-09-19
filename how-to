@@ -1,0 +1,12 @@
+hugo -D
+hugo server -D
+
+cd public
+git add .
+git commit -m "$(date) update"
+git push origin HEAD
+
+cd ..
+git add .
+git commit -m "your message here"
+git push origin HEAD
