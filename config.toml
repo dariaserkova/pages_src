@@ -28,8 +28,6 @@ enableGitInfo = "true"
     # Section for links to social websites
     [params.social]
         title = "Links"
-
-
         [[params.social.list]]
             class = "fab"
             icon = "fas fa-envelope"
@@ -60,6 +58,11 @@ enableGitInfo = "true"
             icon = "fa-skype"
             url = "skype:dariaserkova?chat"
             title = "Skype"
+        [[params.social.list]]
+            class = "fab"
+            icon = "fas fa-file-pdf"
+            url = "docs/dserkova_cv.pdf"
+            title = "PDF"
 		
 
     #Specify what is showin in the Accordion
@@ -86,7 +89,9 @@ enableGitInfo = "true"
         different kinds of applications, in automating software life cycle using different set of tools, 
         great experience of communicating with customer. I like the ideas of infrastructure as code, cloud computing 
         and DevOps principles and try to behave in accordance with them. Speaking about tools I like python, ansible, 
-        docker, prometheus and try be be aware of it. Now I’m also getting started with Go.'''
+        docker, prometheus and try be be aware of it. Now I’m also getting started with Go.      
+        '''
+        
 
     # Experience section
     [params.experience]
@@ -96,7 +101,7 @@ enableGitInfo = "true"
             position = "Senior Systems Engineer"
             dates = "Feb. 2020 - *Present*"
             company = "Wrike, Saint-Petersburg, Russia"
-            details = "Maintened production and stage environments (k8s clusters and non-dockerized applications), prepared and deployed cloud infrastructure as code, developed and support custom packages builds and monitoring schemas, participated in team's duty routines. "
+            details = "Maintained production and stage environments (k8s clusters and non-dockerized applications), prepared and deployed cloud infrastructure as code, developed and support custom packages builds and monitoring schemas, participated in team's on-call routines and maintenance, performed automatization of a variety of workflows. "
         [[params.experience.list]]
             position = "Senior Engineer of Infrastructure Team"
             dates = "Nov. 2018 - Jan. 2020"
