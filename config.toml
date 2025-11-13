@@ -36,7 +36,7 @@ enableGitInfo = "true"
         [[params.social.list]]
             class = "fab"
             icon = "fab fa-telegram-plane"
-            url = "https://t.me/ds0102"
+            url = "https://t.me/dariaserkova"
             title = "Telegram"
         [[params.social.list]]
             class = "fab"
@@ -53,11 +53,6 @@ enableGitInfo = "true"
             icon = "fa-github"
             url = "https://github.com/dariaserkova"
             title = "GitHub"
-        [[params.social.list]]
-            class = "fab"
-            icon = "fa-skype"
-            url = "skype:dariaserkova?chat"
-            title = "Skype"
         [[params.social.list]]
             class = "fab"
             icon = "fas fa-file-pdf"
@@ -85,9 +80,9 @@ enableGitInfo = "true"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-smile-beam"
-        description = '''10 years experience in maintenance, deploy automation and monitoring realization of 
+        description = '''10+ years experience in maintenance, deploy automation and monitoring realisation of 
         different kinds of applications, in automating software life cycle using different set of tools, 
-        great experience of communicating with customer. I like the ideas of infrastructure as code, cloud computing 
+        great experience of communicating with customer and dev teams. I like the ideas of infrastructure as code, cloud computing 
         and DevOps principles and try to behave in accordance with them. Speaking about tools I like python, golang, kubernetes
         and try be be aware of it.       
         '''
@@ -96,12 +91,17 @@ enableGitInfo = "true"
     # Experience section
     [params.experience]
         title = "Experiences"
-        icon = "fas fa-briefcase"        
+        icon = "fas fa-briefcase"
         [[params.experience.list]]
-            position = "Senior Systems Engineer"
-            dates = "May 2021 - *Present*"
+            position = "DevOps TeamLead"
+            dates = "Jun 2022 - Present"
+            company = "Luchi (BestDoctor), Remote, Russia"
+            details = "Lead of DevOps and infrastructure team, responsible for all production and non-production environments, increased teammemmbers from 3 to 8, organized duty shifts, developed and presented the strategy of the department, made regular digests about the team's work for other departments, represent the department on company all-hands, took care of the atmosphere and the mood of the team"        
+        [[params.experience.list]]
+            position = "DevOps Engineer in Core Team"
+            dates = "May 2021 - Jun 2022"
             company = "Arrival, Saint-Petersburg, Russia"
-            details = "Maintained core clusterised platform of the company, developed cluster-on-demand vendor agnostic system, k8s operator to provide environments on-demand, participated in supporting and consulting of dev and ops teams"
+            details = "Maintained core clusterised platform of the company, developed cluster-on-demand vendor agnostic system, k8s operator to provide environments on-demand, developed custom terraform modelues for different projects, start developing cloud-agnostic k8s installations with kubernetes cluster api, participated in supporting and consulting of dev and ops teams"
         [[params.experience.list]]
             position = "Senior Systems Engineer"
             dates = "Feb. 2020 - May 2021"
@@ -141,10 +141,10 @@ enableGitInfo = "true"
         [[params.project.list]]
             title = "Terraform"
             url = "https://www.terraform.io/"
-            description = "Infrastructure in AWS, GCP, Snowflake, YandexCloud"
+            description = "Infrastructure in AWS, GCP, Azure Snowflake, YandexCloud"
         [[params.project.list]]
             title = "Kubernetes"
-            description = "Vendor agnostic k8s clusters, k8s operators for business needs"
+            description = "Vendor agnostic k8s clusters, k8s operators for business needs, VPA, HPA"
         [[params.project.list]]
             title = "Gitlab CI"
             url = "https://docs.gitlab.com/ee/ci"
@@ -154,37 +154,27 @@ enableGitInfo = "true"
             description = "clickhouse (on premise, k8s + operator), postgres (patroni, pgbouncer, k8s operator)"
         [[params.project.list]]
             title = "Cloud computing"
-            description = "AWS, Selectel, YandexCloud"
+            description = "AWS, Selectel, YandexCloud, GCP, Azure"
         [[params.project.list]]
             title = "Ansible"
             url = "https://www.ansible.com"
             description = "Automation of deploy anything anywhere: application, LB-s, infrastructure parts etc. Custom modules. Different kinds of templates for specific purposes"
         [[params.project.list]]
-            title = "Docker"
-            url = "https://docs.docker.com"
+            title = "Containers"
             description = "Custom docker build for self-written and opensource applications. Orchestration. Monitoring." 
         [[params.project.list]]
             title = "Monitoring, visualisation, alerting"
             description = "Prometheus (exporters, PomQL for specific computing, alertmanager), Grafana, Kibana, Zabbix"
         [[params.project.list]]
-            title = "Application and Web servers"
-            description = "nginx/openresty, apache http server, apache tomcat, jboss, wildfly"
-        [[params.project.list]]
-            title = "Java applications maintenance"
-            description = "jconsole, jmap, visualvm"
-        [[params.project.list]]
             title = "Jenkins"
             url = "https://jenkins.io"
-            description = "Groovy DSL, Jenkins pipelines, Jenkins api with python" 
-        [[params.project.list]]
-            title = "Service Discovery"
-            description = "Consul"
+            description = "Groovy DSL, Jenkins pipelines, Jenkins api with python"
         [[params.project.list]]
             title = "Languages & Operating Systems"
             description = "Python, bash, golang, lua, deb- and rpm-based linux"
         [[params.project.list]]
             title = "Log management"
-            description = "Graylog, fluentd, loki"
+            description = "Graylog, fluentd, loki, ELK"
 
     
     # Skill section
@@ -195,25 +185,28 @@ enableGitInfo = "true"
 
         [[params.skill.list]]
             skill = "Infrastructure as Code"
-            skillrating = 90
-        [[params.skill.list]]
-            skill = "CI/CD automation"
-            skillrating = 90
-        [[params.skill.list]]
-            skill = "Administration"
             skillrating = 85
         [[params.skill.list]]
+            skill = "Kubernetes"
+            skillrating = 70
+        [[params.skill.list]]
+            skill = "CI/CD automation"
+            skillrating = 75
+        [[params.skill.list]]
+            skill = "Administration"
+            skillrating = 75
+        [[params.skill.list]]
             skill = "Script writing"
-            skillrating = 90
+            skillrating = 85
         [[params.skill.list]]
             skill = "Monitoring/Troubleshooting"
             skillrating = 90
         [[params.skill.list]]
             skill = "Mentoring"
-            skillrating = 70
-        [[params.skill.list]]
-            skill = "Customer Support"
             skillrating = 80
+        [[params.skill.list]]
+            skill = "Customer & developer Support"
+            skillrating = 90
         [[params.skill.list]]
             skill = "DevOps"
             skillrating = 80
@@ -291,4 +284,4 @@ enableGitInfo = "true"
         [[params.hobby.list]]		
 		    hobby = "Cycling"
         [[params.hobby.list]]		
-		    hobby = "Yoga"
+		    hobby = "Running"
